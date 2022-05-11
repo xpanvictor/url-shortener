@@ -1,0 +1,23 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "URL shortener backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xpanvictor/url-shortener.git"
+  },
+  "keywords": [
+    "url-shortener",
+    "fullStack"
+  ],
+  "author": "xpan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xpanvictor/url-shortener/issues"
+  },
+  "homepage": "https://github.com/xpanvictor/url-shortener#readme"
+}
