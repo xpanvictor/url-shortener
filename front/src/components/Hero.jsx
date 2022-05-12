@@ -1,7 +1,6 @@
 import React from 'react'
-import {Image, Button, Form} from 'react-bootstrap'
+import {Image, Button,} from 'react-bootstrap'
 import big from '../img/illustration-working.svg'
-import bg from '../img/bg-shorten-desktop.svg'
 import './hero.scss'
 
 function Hero() {
@@ -14,16 +13,9 @@ function Hero() {
                   Build your brand’s recognition and get detailed insights 
                   on how your links are performing.
               </p>
-              <Button size='large' className='rounded-pill mt-4'>Get Started</Button>
+              <Button size='large' className='rounded-pill mt-4 px-5'>Get Started</Button>
           </div>
           <Image src={big} className='w-75' fluid />
-        </section>
-        
-        <section className="position-absolute top-10 btn has-bg-img btn-lg">
-          <Form.Group>
-            <Form.Control type="url" />
-          </Form.Group>
-          <img src={bg} className='bg-img' alt="" /> 
         </section>
     </main>
   )

@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './App.scss'
-import {Navig, Hero} from './components'
-import {Container} from 'react-bootstrap'
+import {Navig, Hero, Stats} from './components'
 
 
 function App() {
@@ -10,6 +9,8 @@ function App() {
     <div className='App'>
       <Navig />
       <Hero />
+      <Stats />
+      <img src="" alt="" />
   </div>
   )
 }
