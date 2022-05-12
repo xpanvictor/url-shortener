@@ -1,12 +1,16 @@
 import React from 'react'
-import {Card, Row} from 'react-bootstrap'
+import './stats.scss'
+import {Container, Card, Row, Col} from 'react-bootstrap'
+import recog from '../img/icon-brand-recognition.svg'
+import det from '../img/icon-detailed-records.svg'
+import cust from '../img/icon-fully-customizable.svg'
 
 
 function Stats() {
   return (
     <main>
         <section className="stats my-5 px-5 container py-3">
-          <div className="mx-auto">
+        <div className="mx-auto">
             <div className="top mx-auto text-center w-50">
               <h1>Advanced Statistics</h1>
               <p className="text-muted">
@@ -14,10 +18,16 @@ function Stats() {
                 our advanced statistics dashboards
               </p>
             </div>
-            <Row className="position-relative gap-4">
+
+            <Container fluid>
+            <Row className="position-relative text-center w-100 mt-5 mx-0 p-0">
             <hr className="position-absolute bg-primary top-50" style={{height: 8+'px'}} />
-              <Card className="col-sm bg-light h-50 px-3 py-5">
-                <img src="" className="card-image" alt="" />
+
+              <Col sm={4} className='m-0 p-0'>
+              <Card className="bg-light h-100 px-3 py-5 mx-0">
+                <div className="img-holder py-0 my-0 mx-sm-0 mx-auto">
+                <img src={recog} className="alg rounded-circle p-3" alt="" />
+                </div>
                 <Card.Title>Brand Recognition</Card.Title>
                 <Card.Text>
                 <span className="text-secondary">
@@ -26,8 +36,13 @@ function Stats() {
                 </span>
                 </Card.Text>
               </Card>
+              </Col>
 
-              <Card className="col-sm bg-light h-50 px-3 py-5 mt-4">
+              <Col sm={4} className='m-0 p-0'>
+              <Card className="bg-light h-100 px-3 py-5 mx-0 mt-3">
+                <div className="img-holder py-0 my-0 mx-sm-0 mx-auto">
+                <img src={det} className="alg rounded-circle p-3" alt="" />
+                </div>
                 <Card.Title>Detailed Records</Card.Title>
                 <Card.Text>
                 <span className="text-secondary">
@@ -36,18 +51,26 @@ function Stats() {
                 </span>
                 </Card.Text>
               </Card>
+              </Col>
 
-              <Card className="col-sm bg-light h-50 px-3 py-5 mt-5">
+              <Col sm={4} className='m-0 p-0'>
+              <Card className="bg-light h-100 px-3 py-5 mx-0 mt-5">
+                <div className="img-holder py-0 my-0 mx-sm-0 mx-auto">
+                <img src={cust} className="alg rounded-circle p-3" alt="" />
+                </div>
                 <Card.Title>Fully customizable</Card.Title>
                 <Card.Text>
                 <span className="text-secondary">
-                Gain insights into who is clicking your links. Knowing when and where 
-                people engage with your content helps inform better decisions.
+                Improve brand awareness and content discoverability through customizable 
+                links, supercharging audience engagement.
                 </span>
                 </Card.Text>
               </Card>
+              </Col>
+
             </Row>
-          </div>
+            </Container>
+        </div>
         </section>
     </main>
   )

@@ -1,10 +1,9 @@
 
-
+// Import necessary bootstrap files for customization
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
 
-// 4. Include any optional Bootstrap components as you like
 @import "../node_modules/bootstrap/scss/root";
 @import "../node_modules/bootstrap/scss/reboot";
 @import "../node_modules/bootstrap/scss/type";
@@ -12,14 +11,21 @@
 @import "../node_modules/bootstrap/scss/containers";
 @import "../node_modules/bootstrap/scss/grid";
 
-
-$primary: hsl(66, 66%, 49%);
-$pd: hsl(257, 27%, 26%);
+// Declare all our colors here
+// Primaries
+$primary: hsl(180, 66%, 49%);
+$dv: hsl(257, 27%, 26%);
+// Secondary
+$secondary: hsl(0, 87%, 67%);
+// Neutrals
+$gv: hsl(257, 7%, 63%);
+$vdb: hsl(255, 11%, 22%);
+$vdv: hsl(260, 8%, 14%);
 
 
 $custom-colors: (
     "primary": $primary,
-    "pd": $pd
+    "pd": $dv
 );  
 
 $theme-colors: map-merge($map1: $custom-colors, $map2: $theme-colors);
