@@ -4,8 +4,9 @@ import { Container, Navbar, NavDropdown, Form, FormControl, Nav, Row, Col, Butto
 
 function Navig() {
   return (
-    <Navbar expand="lg">
-        <Navbar.Brand className='pd' href="#">URL shvtnr</Navbar.Brand>
+    <Container>
+      <Navbar expand="lg">
+        <Navbar.Brand className='pd fw-normal' href="#">URL shvtnr</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
         <Nav
@@ -27,7 +28,8 @@ function Navig() {
             <Button variant="outline-success">Search</Button>
         </Form>
         </Navbar.Collapse>
-    </Navbar>
+      </Navbar>
+    </Container>
   )
 }
 

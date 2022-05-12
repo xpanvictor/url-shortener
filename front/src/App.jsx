@@ -7,10 +7,10 @@ import {Container} from 'react-bootstrap'
 function App() {
 
   return (
-    <Container className='App'>
-      <Navig></Navig>
+    <div className='App'>
+      <Navig />
       <Hero />
-  </Container>
+  </div>
   )
 }
 
