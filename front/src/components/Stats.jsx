@@ -1,6 +1,6 @@
 import React from 'react'
 import './stats.scss'
-import {Container, Card, Row, Col} from 'react-bootstrap'
+import {Container, Card, Row} from 'react-bootstrap'
 import recog from '../img/icon-brand-recognition.svg'
 import det from '../img/icon-detailed-records.svg'
 import cust from '../img/icon-fully-customizable.svg'
@@ -20,8 +20,8 @@ function Stats() {
             </div>
 
             
-            <Row className="row position-relative mx-2 mt-5 gap-5 gap-md-3">
-            <hr className="position-absolute w-100 bg-primary top-50" style={{height: 8+'px'}} />
+            <Row className="row w-auto position-relative mx-2 mt-5 gap-5 gap-md-3">
+            <hr className="position-absolute w-md-100 bg-primary top-50 top-md-50" style={{height: 8+'px'}} />
                 <div className="col-md p-0 ">
                     <Card className="bg-light h-100 px-3 py-5 mx-0">
                     <div className="img-holder py-0 my-0 mx-md-0 mx-auto">

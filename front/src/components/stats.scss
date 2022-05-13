@@ -1,8 +1,5 @@
 @import '../sass/custom.scss';
 
-.card.h-100 {
-}
-
 .img-holder {
     margin: 0;
     height: 0;
@@ -12,6 +9,7 @@ img.alg {
     transform: translateY(calc(-1 * (100% + 10px)));
     background-color: $dv;
 }
+
 
 @media screen and (max-width: 768px) {
     hr {
