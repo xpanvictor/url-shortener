@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.scss'
-import {Navig, Hero, Stats} from './components'
+import {Navig, Hero, Stats, Footer, Dsp} from './components'
 
 
 function App() {
@@ -10,7 +10,8 @@ function App() {
       <Navig />
       <Hero />
       <Stats />
-      <img src="" alt="" />
+      <Dsp />
+      <Footer />
   </div>
   )
 }

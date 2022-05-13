@@ -1,7 +1,8 @@
 import React from 'react'
-import {Image, Button,} from 'react-bootstrap'
+import {Image} from 'react-bootstrap'
 import big from '../img/illustration-working.svg'
 import './hero.scss'
+import {Gs} from './comps'
 
 function Hero() {
   return (
@@ -13,8 +14,8 @@ function Hero() {
                   Build your brand’s recognition and get detailed insights 
                   on how your links are performing.
               </p>
-              <Button size='large' className='rounded-pill mt-4 px-5'>Get Started</Button>
-          </div>
+              <Gs />
+            </div>
           <Image src={big} className='w-75' fluid />
         </section>
     </main>
