@@ -1,18 +1,17 @@
 import { useState } from 'react'
 import './App.scss'
-import {Navig, Hero, Stats, Footer, Dsp} from './components'
+import {Stats, Dsp} from './components'
+import {Outlet} from 'react-router-dom'
 
 
 function App() {
 
   return (
     <div className='App'>
-      <Navig />
-      <Hero />
+      <Outlet />
       <Stats />
       <Dsp />
-      <Footer />
-  </div>
+    </div>
   )
 }
 

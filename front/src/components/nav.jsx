@@ -1,12 +1,13 @@
 import React from 'react'
 import { Container, Navbar, Form, FormControl, Nav, Row, Col, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom'
 
 
 function Navig() {
   return (
     <Container className='vh-25 mb-0 mb-md-5'>
       <Navbar expand="lg">
-        <Navbar.Brand className='pd fw-normal' href="#">URL shvtnr</Navbar.Brand>
+        <Link to='/' className='text-decoration-none'><Navbar.Brand className='pd fw-normal'>URL shvtnr</Navbar.Brand></Link>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
         <Nav
