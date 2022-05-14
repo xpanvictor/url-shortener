@@ -11,6 +11,7 @@ function Login() {
   const handleSubmit = (e) => {
     e.preventDefault()
     console.log(user)
+    // Redirect
   }
 
   const validator = (e) => {
