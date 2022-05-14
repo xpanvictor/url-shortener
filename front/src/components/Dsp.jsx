@@ -17,7 +17,7 @@ function Dsp (){
     },[isMobile])
 
     return (
-      <div ref={bgRef} className="container-fluid background-no-repeat has-bg-image text-center h-100 w-100 py-5 bg-secondary">
+      <div ref={bgRef} className="container-fluid vh-25 mt-2 background-no-repeat has-bg-image text-center w-100 py-5 bg-secondary">
        <h1>Boost your links today</h1>
         <Gs />
       </div>

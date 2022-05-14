@@ -4,14 +4,14 @@ import { Container, Navbar, Form, FormControl, Nav, Row, Col, Button } from 'rea
 
 function Navig() {
   return (
-    <Container>
+    <Container className='vh-25 mb-0 mb-md-5'>
       <Navbar expand="lg">
         <Navbar.Brand className='pd fw-normal' href="#">URL shvtnr</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
         <Nav
             className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px' }}
+            style={{ maxHeight: '140px' }}
             navbarScroll
         >
             <Nav.Link href="#action1">Features</Nav.Link>

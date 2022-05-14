@@ -8,19 +8,19 @@ import cust from '../img/icon-fully-customizable.svg'
 
 function Stats() {
   return (
-    <Container className='m-auto'>
-        <section className="stats my-5 px-0 py-3">
+    <Container className='vh-auto h-100 mt-2 mb-4 pt-0 pb-5'>
+        <section className="stats my-2 px-0 py-2 pb-3">
         <div className="mx-auto">
-            <div className="top mx-auto text-center w-50">
+            <div className="mx-auto mt-0 py-5 text-center w-50">
               <h1>Advanced Statistics</h1>
-              <p className="text-muted">
+              <p className="text-muted my-3">
                 Track how your links are performing across the web with
                 our advanced statistics dashboards
               </p>
             </div>
 
             
-            <Row className="row w-auto position-relative mx-2 mt-5 gap-5 gap-md-3">
+            <Row className="row w-auto position-relative mx-2 mt-5 mb-4 gap-5 gap-md-3">
             <hr className="position-absolute w-md-100 bg-primary top-50 top-md-50" style={{height: 8+'px'}} />
                 <div className="col-md p-0 ">
                     <Card className="bg-light h-100 px-3 py-5 mx-0">
